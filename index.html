@@ -1,0 +1,121 @@
+<html>
+<head>
+	<title>gempir</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+	<meta name="theme-color" content="#343838">
+	<!-- bower includes -->
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="bower_components/typed.js/dist/typed.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="bower_components/skeleton/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/skeleton/css/skeleton.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css">
+	<!-- externally hosted -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<!-- local hosted -->
+	<script type="text/javascript" src="js/main.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<div class="page1">
+	<div class="gopher"><img width="200" height="200" src="img/gopher.png"></div>
+	<div class="iam">
+		Hi, I'm gempir. I am a<br>
+        <span class="typewriter"></span>
+    </div>
+</div>
+
+<div class="page2">
+	<div class="page-title page-title-work"> Work </div>
+		<div class="container container-work">
+			<div class="row">
+				<div class="one-half column tile">
+		            <div class="overlay">
+		                <div class="tile-text">
+		                    <a href="https://github.com/gempir/gempui">gempUI</a><br>
+		                    <span>
+		                        A custom user interface for World Of Warcraft written in Lua
+		                    </span>
+		                </div>
+		            </div>
+		            <img src="img/work/gempui.jpg" alt="gempUI">
+				</div>
+				<div class="one-half column tile">
+					<div class="overlay">
+						<div class="tile-text">
+							<a href="https://github.com/gempir/relaybroker">relaybroker</a><br>
+							<span>
+								An IRC proxy to handle ratelimiting and connection issues with the twitch IRC servers
+							</span>
+						</div>
+					</div>
+					<img src="img/work/relaybroker.jpg" alt="relaybroker">
+				</div>
+			</div>
+			<div class="row">
+				<div class="one-half column tile">
+					<div class="overlay">
+						<div class="tile-text">
+							<a href="https://github.com/gempir/gempbot">gempbot</a><br>
+							<span>
+								A twitch IRC bot written in nodejs (ES6)
+							</span>
+						</div>
+					</div>
+					<img src="img/work/gempbot.jpg" alt="gempbot">
+				</div>
+				<div class="one-half column tile">
+		            <div class="overlay">
+		                <div class="tile-text">
+		                    <a href="https://github.com/gempir/gempui">gempAPI</a><br>
+		                    <span>
+		                        An API written in go for twitch related recordings, like chatlogs, last messages or messages written
+		                    </span>
+		                </div>
+		            </div>
+		            <img src="img/work/gempAPI.jpg" alt="gempAPI">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="page5">
+	<div class="page-title page-title-contact">
+		Contact
+	<div class="contact">
+		<div class="email">
+		<a href="mailto:gempir@outlook.com"><i class="fa fa-envelope"></i> gempir@outlook.com</a>
+		</div>
+		<div class="contact-line"></div>
+	<form class="contact-form" method="post" action="https://formspree.io/gempir@outlook.com">
+		<label class="form-label">Name</label>
+		<input class="input" name="name" type="text" placeholder="John Doe">
+		<label class="form-label">Email</label>
+		<input class="input" name="_replyto" type="text" placeholder="test@example.com">
+		<label class="form-label">Subject</label>
+		<input class="input" name="subject" type="text" placeholder="">
+		<label class="form-label">Message</label>
+		<textarea class="input contact-form-message" name="message"></textarea>
+
+		<input class="input button-primary" id="submit" name="submit" type="submit" value="Send">
+	</form>
+</div>
+
+<div class="footer">
+	<a href="http://twitter.com/gempir"><i class="fa fa-twitter"></i> Twitter</a> <span> | </span> <a href="legal.html"> Legal </a>  <span> | </span> <a href="http://github.com/gempir"> Github <i class="fa fa-github"></i></a>
+</div>
+</body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-78066771-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</html>

@@ -1,0 +1,44 @@
+.container-work
+	margin-bottom: 100px
+
+.page2 img
+	width: 100%
+	margin-bottom: 0px
+	@include materialShadow(1, black, 0.5)
+
+.tile
+	position: relative
+	margin-top: 40px
+	.tile-text
+		position: absolute
+		bottom: 30px
+		padding: 0 40px
+		color: white
+		font-size: 4rem
+		font-family: $font-2
+		a
+			color: white
+			text-decoration: none
+			@include transition(0.2s)
+			&:hover
+				color: $color-2
+				@include transition(0.2s);
+
+
+
+	span
+		font-size: 1.5rem
+		font-family: $font-1
+
+	&:hover .overlay
+		opacity: 1
+		@include transition(0.5s)
+
+	.overlay
+		position: absolute
+		top: 0
+		height: 100%
+		width: 100%
+		opacity: 0
+		@include gradient-tile()
+		@include transition(0.5s)
