@@ -1,11 +1,5 @@
-// smooth anchor scroll
-$(document).ready(function(){
-    $('a').click(function(){
-        $('html, body').animate({
-            scrollTop: $( $.attr(this, 'href') ).offset().top
-        }, 500);
-        return false;
-    });
+$(window).scroll(function(event) {
+    $('.tile').fadeIn(); 
 });
 
 // typing effect
